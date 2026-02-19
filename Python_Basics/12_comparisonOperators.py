@@ -1,8 +1,9 @@
-# COMPARISON OPERATORS:
+# COMPARISON OPERATORS WITH IF,ELSE STATEMENTS:
 
-# problem statment: age should be less than 21 and 70 for approval of loan:
+# problem statement: age should be less than 21 and 70 for approval of loan:
 
 # Simple Way:
+
 age = 25
 if age >= 21 and age < 70:
     print("Eligible for Loan")
@@ -11,6 +12,7 @@ else:
 
 
 # Chaining Comparison Operators:
+
 if 21 <= age < 70:
     print("Eligible")
 else:
@@ -34,3 +36,4 @@ print("bag" > "apple")  # True
 
 # Because when we sorting alphabetically "cat comes later than bag and apple comes
 # early before bag":
+
