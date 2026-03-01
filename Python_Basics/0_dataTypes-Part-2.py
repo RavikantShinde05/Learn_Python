@@ -15,7 +15,7 @@ active: bool = 10
 names: list = ['alice', 'bob', 'david']  # list or queue of names
 coordinates: tuple = (3.14, 9.81)  # values cannot be change
 # values cannot be duplicated hence unique used in database to store id's.
-unique: {1, 2, 5, 8, 9}
+unique: set = {1, 2, 5, 8, 9}
 # use to store data in a key-value pair.
 data: dict = {'name': 'alice', 'age': 20}
 
@@ -39,3 +39,4 @@ VERSION = '22.18.05'
 
 # constant
 PI: Final[float] = 3.14
+
