@@ -7,15 +7,16 @@ print("hello my name is", name)  # output: hello my name is Alice
 
 
 # DATA TYPES:
-
 number: int = 10  # integer value
-decimal: float = 5.2
+decimal: float = 5.2 
 text: str = "Harry Potter"
-active: bool = 10
+active: bool = False
 names: list = ['alice', 'bob', 'david']  # list or queue of names
 coordinates: tuple = (3.14, 9.81)  # values cannot be change
+
 # values cannot be duplicated hence unique used in database to store id's.
 unique: set = {1, 2, 5, 8, 9}
+
 # use to store data in a key-value pair.
 data: dict = {'name': 'alice', 'age': 20}
 
@@ -33,10 +34,10 @@ age: int = 26  # the age must be an integer as intended to be.
 
 # To define constant variables use "UpperCase"
 VERSION: Final[str] = '22.18.04'
-
 # Here you will get the warning about "version" is constant cannot be changed.
 VERSION = '22.18.05'
 
 # constant
 PI: Final[float] = 3.14
+
 
